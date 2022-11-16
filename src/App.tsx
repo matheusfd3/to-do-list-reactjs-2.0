@@ -1,6 +1,14 @@
+import { Header } from "./components/Header";
+import { TaskList } from "./components/TaskList";
+
+import './global.css';
+
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <>
+      <Header></Header>
+      <TaskList></TaskList>
+    </>
   )
 }
 
